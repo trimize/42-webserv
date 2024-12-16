@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   CGI.hpp                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: trimize <trimize@student.42.fr>            +#+  +:+       +#+        */
+/*   By: teorimize <teorimize@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/11 21:40:33 by svydrina          #+#    #+#             */
-/*   Updated: 2024/10/02 20:45:36 by trimize          ###   ########.fr       */
+/*   Updated: 2024/12/16 14:03:05 by teorimize        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@
 #include "Enums.hpp"
 #include "Response.hpp"
 #include <sys/stat.h>
+#include <signal.h>
 
 #define BufferSize 1024
 
